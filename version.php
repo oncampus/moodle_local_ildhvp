@@ -24,7 +24,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_ildhvp';
-$plugin->version = 2018110801;
+$plugin->version = 2021011800;
 $plugin->requires = 2013051403;
-$plugin->maturity  = MATURITY_ALPHA;
-$plugin->release   = '1.0';
+$plugin->maturity  = MATURITY_BETA;
+$plugin->release   = '1.1';
