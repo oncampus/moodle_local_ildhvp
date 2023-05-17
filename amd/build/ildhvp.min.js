@@ -563,7 +563,7 @@ define(['jquery', 'core/ajax'], function ($, ajax) {
         }
 
         // Check if Essay is scored.
-        if (typeof ILD.EssayPassPercentage[contentId] !== 'undefined' && event.getVerb() === 'scored') {
+        if (typeof ILD.EssayPassPercentage[contentId] !== 'undefined' && event.getVerb() === 'answered') {
             var score = event.getScore();
             var maxScore = event.getMaxScore();
             var percentage = (score / maxScore) * 100;
